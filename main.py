@@ -90,7 +90,7 @@ for i in range(COLORDEPTH):
 # subprocess.call('gpio -g pwm 18 8',shell=True) #sets the  backlight from 0 - 1024
 
 # Create images for drawing background and thermal camera output
-background = Image.new("RGBA", (disp.width, disp.height), "BLACK")
+background = Image.new("RGBA", (240, 240), "BLACK")
 thermalImg = Image.new("RGB", (32,24))
 drawBackground = ImageDraw.Draw(background)
 
