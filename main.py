@@ -140,7 +140,6 @@ while True:
                 coloridx = map_value(pixel, MINTEMP, MAXTEMP, 0, COLORDEPTH - 1)
                 coloridx = int(constrain(coloridx, 0, COLORDEPTH - 1))
                 pixels[i] = colormap[coloridx]
-                avgTemp = avgTemp/768
         MINTEMP = avgTemp - 5
         MAXTEMP = avgTemp + 5
         avgTemp = int(1.8*(avgTemp)+32)
