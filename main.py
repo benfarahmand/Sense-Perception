@@ -24,6 +24,9 @@ mlx = adafruit_mlx90640.MLX90640(i2c)
 
 mlx.refresh_rate = adafruit_mlx90640.RefreshRate.REFRESH_16_HZ
 
+print(GPIO.getmode())
+
+
 # init display
 os.putenv('SDL_FBDEV', '/dev/fb0')
 pygame.init()
