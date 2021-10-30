@@ -1,6 +1,6 @@
 # Sense-Perception
 
-A project to allow me to perceive the world through technological enhanced senses via a wearable HUD.
+A project to allow me to perceive the world through technologically enhanced senses via a wearable HUD.
 
 
 ### Hardware:
