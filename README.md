@@ -33,6 +33,7 @@ network={
 cmake -DST7789=ON -DGPIO_TFT_DATA_CONTROL=25 -DGPIO_TFT_RESET_PIN=27 -DGPIO_TFT_BACKLIGHT=18 -DSPI_BUS_CLOCK_DIVISOR=10 -DSTATISTICS=0 -DUSE_DMA_TRANSFERS=OFF ..
 
 - Used the following settings in raspberry pi config file:
+- Go to boot/config.txt then use these settings for no HDMI display and instead using the ST7789
 ```
 hdmi_group=2
 hdmi_mode=87
